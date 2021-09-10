@@ -1,4 +1,3 @@
-# S1.1: Design the "Visualise Data" page of the multipage app.
 # Import necessary modules 
 import streamlit as st
 import matplotlib.pyplot as plt
@@ -26,8 +25,6 @@ def app(car_df):
     # Add a subheader in the sidebar with label "Visualisation Selector"
     st.subheader("Visualisation Selector")
 
-    # Add a multiselect in the sidebar with label 'Select the charts or plots:'
-    # and pass the remaining 3 plot types as a tuple i.e. ('Histogram', 'Box Plot', 'Correlation Heatmap').
     # Store the current value of this widget in a variable 'plot_types'.
     plot_types = st.multiselect("Select charts or plots:", ('Histogram', 'Box Plot', 'Correlation Heatmap'))
 
