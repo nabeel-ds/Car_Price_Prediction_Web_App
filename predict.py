@@ -1,6 +1,3 @@
-# Code for 'predict.py' file.
-# You have already created this ML model in one of the previous classes.
-
 # Importing the necessary Python modules.
 import numpy as np
 import pandas as pd
@@ -50,7 +47,6 @@ def app(car_df):
     
     # When 'Predict' button is clicked, the 'prediction()' function must be called 
     # and the value returned by it must be stored in a variable, say 'price'. 
-    # Print the value of 'price' and 'score' variable using the 'st.success()' and 'st.info()' functions respectively.
     if st.button("Predict"):
         st.subheader("Prediction results:")
         price, score, car_r2, car_mae, car_msle, car_rmse = prediction(car_df, car_wid, eng_siz, hor_pow, drw_fwd, com_bui)
