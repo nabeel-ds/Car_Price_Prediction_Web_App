@@ -14,4 +14,5 @@ https://cars-price-prediction-web-app.herokuapp.com/
 # Technical Aspects: 
 1- Collected the data from https://archive.ics.uci.edu/ml/datasets/Automobile. 
 - Trained the ml model on this data on the streamlit framework also used various data exploration and various data preprocessing techniques along with the feature selection methods (RFE, p_value). 
+
 2- Deploying the app on Heroku.
