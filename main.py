@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Configure your home page.
+# Configuring the home page.
 st.set_page_config(page_title = 'Car Price Prediction',
                     page_icon = ':car:',
                     layout = 'centered',
