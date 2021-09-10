@@ -1,5 +1,6 @@
 # Demo:
-https://cars-price-prediction-web-app.herokuapp.com/
+
+- App Link: https://cars-price-prediction-web-app.herokuapp.com/
 
 ![heroku](https://user-images.githubusercontent.com/80488887/132855205-c8f55e6e-9859-42fe-ab2c-da3056c4f1e9.JPG)
 
